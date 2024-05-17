@@ -1,0 +1,1055 @@
+@charset "UTF-8";
+h1{
+	font: normal small-caps normal 1.3em/.8em "IMFellEnglishSC", serif;
+	letter-spacing: .1em;
+	margin: 25% 5% 5% 5%;
+	text-align: center;
+	
+}
+h2{
+	font: normal 2em/1.2em "IMFellEnglish",serif;
+	margin: 0% 0%;
+	text-align: right;
+	letter-spacing: 3px;
+	color: white;
+	background-color: #191919;
+	padding: 2% 2%;
+}
+@keyframes bordeIzq{
+	0% {}
+	50% { color: #b8860b; background-color: #191919;}
+	100% { color: #191919; background-color: #b8860b;}
+}
+.bordeIzq{
+	animation-name: bordeIzq;
+	animation-duration: 30s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+h2:hover{
+	background-color: #090909;
+}
+h3{
+	font: normal 1.6em/1.2em "IMFellEnglishSC", serif;
+	text-align: center;
+	width: 80%;
+	margin: 3% 10%;
+}
+h4{
+	font: normal 1.4em/1.2em "IMFellEnglishSC", serif;
+	letter-spacing: 1px;
+	width: 80%;
+	margin: 0% 10% 5% 10%;
+	border-style: solid;
+	border-width: 2px 0px;
+	padding: 2% 2%;
+}
+h5{
+	font: normal 3.5em/1.2em "IMFellEnglishSC", serif;
+	text-align: center;
+	margin: 0% 3% 5% 3%;
+}
+pre{
+	font: normal .85em/1.3em "GoudyBookletter1911", serif;
+	width: 80%;
+	margin: 1% 12% 1% 8%;
+	text-align: left;
+}
+p{
+	font: normal .8em/1.2em "GoudyBookletter1911", serif;
+}
+a{
+	color: black;
+	text-decoration-line: none;
+}
+.frontispicio{
+	width: 96%;
+	margin: 0% 2%;
+	background-image: url(imago/ornaFondo.svg);
+	background-repeat: no-repeat;
+	background-size: content-box;
+	background-position: center center;
+	background-clip: border-box;
+}
+p.falsaCabeza{
+	margin: 0% 0% 0% 0%;
+	padding: 0%;
+	text-align: center;
+}
+.portaFronti{
+	width: 100%;
+	margin: 5% 0%;
+}
+.portada{
+	font: normal .8em/1.2em "IMFellEnglish", serif;
+	margin: 3% 10%;
+	padding: 1% 5%;
+	letter-spacing: 2px;
+	padding: 2% 1%;
+	text-align: center;
+}
+.frontiTxt{
+	font: normal .7em/1.2em "", serif;
+	margin: 3% 10%;
+	padding: 1% 5%;
+	text-align: center;
+}
+.frontiTxt02{
+	font: normal .6em/1.2em "", serif;
+	margin: 3% 10%;
+	padding: 0% 5%;
+	text-align: center;
+}
+.sujetaRuleta{
+	animation-name: rotar;
+	animation-duration: 30s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes rotar{
+	100% {transform: rotate(360deg);}
+}
+.falsa{
+	width: 80%;
+	margin: 0% 10%;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px 3px 1px 3px;
+	
+}
+.falsa p{
+	font: normal .75em/1.2em "GoudyBookletter1911", serif;
+	margin: 0% 0%;
+	padding: 2% 3%;
+	text-align: right;
+	letter-spacing: .5em;
+	color: white;
+	background-color: black;
+}
+.versalitas{
+	font-variant: small-caps;
+	letter-spacing: 2px;
+}
+.proloCaja{
+	width: 80%;
+	margin: 0% 10%;
+}
+.proloCaja h3{
+	font: normal 1.3em/1.2em "IMFellEnglishSC", serif;
+	color: #8b0000;
+	text-align: center;
+	width: 100%;
+	margin: 3% 0%;
+}
+.proloCaja p{
+	width: 100%;
+	margin: 5% 0%;
+	font: normal .8em/1.4em "GoudyBookletter1911", serif;
+	text-align: justify;
+	text-indent: 2em;
+}
+.proloCaja blockquote{
+	width: 85%;
+	margin: 7% 0% 5% 5%;
+	padding: 3% 5% 2%;
+	font: normal .7em/1.4em "GoudyBookletter1911", serif;
+	text-align: center;
+	border-style: solid;
+	border-width: 0px 2px 2px 0px;
+	border-color: #8FBC8F;
+}
+.proloCaja blockquote.citasJusti{
+	text-align: justify;
+}
+.proloCaja blockquote pre{
+		font-size: 1em;
+		width: 90%;
+		margin: 0% 6% 0% 4%;
+}
+.notasblog{
+	font: normal .8em/1.2em "GoudyBookletter1911", serif;
+	color: #8FBC8F;
+	background-color: white;
+	border: none;
+	vertical-align: super;
+	word-spacing: -1px;
+	padding: 0;
+	cursor: pointer;
+	transition: 0.4s;
+	outline: none;
+}
+.desplegadoNotas{
+	width: 90%;
+	margin: 3% 5% 0% 5%;
+	font: normal .9em/1.2em "GoudyBookletter1911", serif;
+	background-color: #cfd5db;
+	display: block;
+	overflow: hidden;
+}
+.desplegadoNotas p{
+	text-indent: 0em;
+}
+.biblio{
+	width: 80%;
+	margin: 0% 10%;
+	page-break-before: always;
+}
+.biblio h5{
+	font: normal 1.3em/1.2em "IMFellEnglishSC", serif;
+	text-align: left;
+	width: 100%;
+	margin: 3% 0%;
+}
+.biblio p{
+	width: 90%;
+	margin: 4% 0% 0% 5%;
+	font: normal .8em/1.2em "GoudyBookletter1911", serif;
+	text-align: justify;
+	text-indent: -1.5em;
+}
+.biblio a{
+	color: #20B2AA;
+}
+figure{
+	width: 80%;
+	margin: 0% 10%;
+	page-break-before: always;
+}
+figcaption{
+	font: normal .6em/1.2em "GoudyBookletter1911", serif;
+	text-align: center;
+	padding: 3% 2%;
+	border-style: solid;
+	border-width: 1px 2px;
+	background-color: #191919;
+}
+figcaption a{
+	color: white;
+}
+figcaption::first-letter{
+	font: normal 2em/1.2em "GoudyBookletter1911", serif;
+	letter-spacing: 0px;
+}
+.vtxt{
+	width: 100%;
+}
+.vIzquierda, .vDerecha {
+	width: 45%;
+	height: 230px;
+}
+.vIzquierda{
+	shape-outside: polygon(0% 0%, 100% 100%, 0% 100%);
+	float: left;
+	clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+}
+.vDerecha{
+	shape-outside: polygon(100% 0%, 100% 100%, 0% 100%);
+	float: right;
+	clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}
+.pLector{
+	font: normal .8em/1.2em "GoudyBookletter1911", serif;
+	text-align: justify;
+	width: 90%;
+	margin: 3% 5%;
+	text-align-last: center;
+}
+.pLector::first-line{
+	font-variant: small-caps;
+}
+
+p.legal{
+	font: normal .7em/1.1em "GoudyBookletter1911", "Georgia", serif;
+	margin-top: 2%;
+	margin-left: 10%;
+	padding-left: 0%;
+	margin-right: 10%;
+	padding-right: 0%;
+	padding-bottom: 0px;
+}
+p.author{
+	text-align: center;
+	font: normal .75em/1.1em "GoudyBookletter1911", "Georiga", serif;
+    border: solid;
+	border-width: 1px 1px 1px 1px;
+	border-radius: 10px;
+	margin-left: 10%;
+	padding-left: 0%;
+	margin-right: 10%;
+	padding-right: 0%;
+	padding: 15px 15px 15px 15px;
+}
+ol{
+	width: 100%;
+	margin: 5% 0% 0%;
+}
+li{
+	font: normal 1em/1.4em "GoudyBookletter1911", serif;
+}
+ol.segunda{
+	padding: 1% 2%;
+	font-size: .65em;
+	width: 90%;
+}
+ol.segunda li:hover{
+	font-size: 1.05em;
+	letter-spacing: 1px;
+}
+ol.segunda li:nth-child(2n){
+	background-color: #ffe6ff;
+	background-clip: content-box;
+	width: 90%;
+}
+.NoVerso{
+	text-align: right !important;
+}
+.reCubierta{
+	width: 90%;
+	margin: 0% 5%;
+	border-style: solid;
+	border-width: 6px 6px 0px 0px;
+	border-color: #B8860B;
+	background-color: #191919;
+}
+@keyframes fondo02{
+	0% {border-style: solid;border-width: 6px 6px 0px 0px; border-color: #B8860B;}
+	100% {border-style: solid;border-width: 6px 6px 0px 0px; border-color: #191919;}
+	
+}
+.fondos02{
+	animation-name: fondo02;
+	animation-duration: 30s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.reCubierta02{
+	width: 90%;
+	margin: 0% 5%;
+	border-style: solid;
+	border-width: 0px 0px 6px 6px;
+	border-color: #B8860B;
+	background-color: #B8860B;
+}
+@keyframes fondo01{
+	0% {background-color: #B8860B;}
+	100% {background-color: #191919;border-style: solid;border-width: 0px 0px 6px 6px; border-color: #191919;}
+	
+}
+.fondos01{
+	animation-name: fondo01;
+	animation-duration: 30s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.subP{
+	width: 80%;
+	margin: 5% 10%;
+	text-align: center;
+}
+.ornaBN{
+	color: white;
+	background-color: #191919;
+	padding: .05%;
+	text-align: center;
+}
+a.ornaD{
+	color: #b8860b;
+	text-align: center;
+	margin: 1% 48% 1.25%;
+}
+.mundoIluminado{
+	color: #ffccff;
+	background-color: #191919;
+	page-break-before: always;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.mundoIluminado h5{
+	font-size: 3.5em;
+	padding: 2%;
+	}
+.colofon{
+	width: 80%;
+	margin: 0% 10% 5%;
+	border-style: solid;
+	border-width: 1px 2px 1px 2px;
+	border-color: gray;
+	background-color: #121212;
+}
+.colofon p{
+	font: normal .7em/1.2em "Garamond", serif;
+	text-align: center;
+	margin: 3% 5%;
+	padding: 1% 6%;
+	color: white;
+}
+.cajaSemblanza{
+	width: 80%;
+	margin: 0% 10%;
+}
+.cajaSemblanza p{
+	font: normal .85em/1.4em "GoudyBookletter1911", serif;
+	text-align: justify;
+	width: 100%;
+	margin: 5% 0%;
+}
+.cajaSemblanza p::first-line{
+	font-size: 1em;
+}
+.cajaSemblanza figure{
+	width: 40%;
+	margin: 5% 30%;
+}
+.imgSemblanza{
+	width: 100%;
+}
+.cata{
+	width: 100%;
+	margin: 0% 0%;
+}
+.cata h4{
+	font: normal 1.4em/1.2em "IMFellEnglishSC", serif;
+	color: #8b0000;
+	letter-spacing: .3px;
+	width: 80%;
+	margin: 0% 10% 5% 10%;
+	border-style: solid;
+	border-width: 2px 0px;
+	padding: 2% 2%;
+}
+.cata ul{
+	width: 80%;
+	margin: 5% 5%;
+	color: #DB7093;
+	list-style-image: url(imago/MiniPali.svg);
+}
+.cata li{
+	font: normal 1em/1.2em "IMFellEnglish", serif;
+	padding: .5% 2%;
+	color: #191919;
+}
+.cata li:nth-child(2n){
+	color: #8b0000;
+}
+.cata li a:hover{
+	color: white;
+	background-color: #DB7093;
+	padding: .5% 1%;
+}
+.img3{
+	width: 30%;
+	margin: 0% 35% 5%;
+}
+.imagoSferas{
+	width: 20%;
+	margin: 0% 40% 0% 40%;
+}
+.imgFronti{
+	height: 100%;
+	margin: 0% 0%;
+}
+.imgOri{
+	width: 100%;
+	margin: 0% 0%;
+	padding: 5% 0%;
+}
+.imgOrna{
+	width: 20%;
+	margin: 2% 40%;
+}
+.imgRe{
+	width: 100%;
+	margin: 0% 0%;
+}
+.imgCo{
+	width: 60%;
+	margin: 4% 20%;
+	border-style: solid;
+	border-width: 2px 3px;
+	border-color: gold;
+}
+.imgMiFronti{
+	width: 80%;
+	margin: 0% 10% 5% 10%;
+}
+.imgOrnaTxt{
+	width: 60%;
+	margin: 3% 15%;
+}
+.reflejo{
+	-webkit-box-reflect: above;
+}
+.imgNegro{
+	background-color: #212121;
+	padding: 2%;
+}
+.fakebook{
+	width: 5%;
+	margin: 0% .8%;
+	float: left;
+	vertical-align: baseline;
+}
+.palindromo{
+	margin: 0% 40% 0% 40%;
+	width: 20%;
+	bottom: 2%;
+}
+.palindromolegal{
+	margin-left: 10%;
+	margin-right: auto;
+	margin-top: 2%;
+	width: 18%;
+	bottom: 5%;
+	right: 0%;
+	left: 3%;
+}
+.funesta{
+	width: 60%;
+	margin: 3% 20%;
+	align-items: center;
+}
+.funesta p{
+	font: normal 1em/1.2em "GoudyBookletter1911", serif;
+	text-align: center;
+}
+.funesta iframe{
+	width: 80%;
+	margin: 1% 10%;
+}
+@font-face{
+	src: url(types/GoudyBookletter1911.ttf);
+	font-family: "GoudyBookletter1911";
+}
+@font-face{
+	src: url(types/IMFellEnglish.ttf);
+	font-family: "IMFellEnglish";
+}
+@font-face{
+	src: url(types/IMFellEnglishSC.ttf);
+	font-family: "IMFellEnglishSC";
+}
+@font-face{
+	src: url(types/Bodoni.TTF);
+	font-family: "Bodoni";
+}
+
+@media only screen and (min-width: 620px) {
+	h1{
+		font: normal small-caps normal 3em/1em "IMFellEnglishSC", serif;
+		letter-spacing: .05em;
+		width: 80%;
+		margin: 10% 10% 2%;
+		text-align: center;
+		
+	}
+	h2{
+		font: normal 2em/1.2em "IMFellEnglish",serif;
+		margin: 0% 0%;
+		text-align: right;
+		letter-spacing: 3px;
+		color: white;
+		background-color: #191919;
+		padding: 2% 2%;
+	}
+	@keyframes bordeIzq{
+		0% {}
+		50% { color: #b8860b; background-color: #191919;}
+		100% { color: #191919; background-color: #b8860b;}
+	}
+	.bordeIzq{
+		animation-name: bordeIzq;
+		animation-duration: 30s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	h2:hover{
+		background-color: #090909;
+	}
+	h3{
+		font: normal 2.5em/1.2em "IMFellEnglishSC", serif;
+		text-align: center;
+		width: 80%;
+		margin: 3% 10%;
+	}
+	h4{
+		font: normal 2.5em/1.2em "IMFellEnglishSC", serif;
+		letter-spacing: 1px;
+		width: 80%;
+		margin: 0% 10% 2% 10%;
+		border-style: solid;
+		border-width: 2px 0px;
+		padding: 1% 1%;
+	}
+	h5{
+		font: normal 3.5em/1.2em "IMFellEnglishSC", serif;
+		text-align: center;
+		margin: 0% 3% 5% 3%;
+	}
+	pre{
+		font: normal 1.2em/1.5em "GoudyBookletter1911", serif;
+		width: 80%;
+		margin: 1% 10%;
+		text-align: left;
+	}
+	p{
+		font: normal 1.2em/1.2em "GoudyBookletter1911", serif;
+	}
+	a{
+		color: black;
+		text-decoration-line: none;
+	}
+	.frontispicio{
+		width: 90%;
+		margin: 0% 5%;
+		background: url(imago/ornaFondo.svg) no-repeat;
+		background-size: contain;
+		background-position: center center;
+		background-clip: border-box;
+		background-color: #b2b2b2;
+	}
+	.falsaCabeza{
+		margin: 0% 0% 0% 0%;
+		text-align: center;
+	}
+	.portaFronti{
+		width: 60%;
+		margin: 0% 20%;
+	}
+	.portada{
+		font: normal 1.2em/1.2em "IMFellEnglish", serif;
+		width: 80%;
+		margin: 0% 10% 0%;
+		letter-spacing: 2px;
+		padding: 0% 1%;
+		text-align: center;
+	}
+	.frontiTxt{
+		font: normal .8em/1.2em "IMFellEnglish", serif;
+		width: 80%;
+		margin: 2% 5%;
+		padding: 0% 5%;
+		text-align: center;
+	}
+	.frontiTxt02{
+		font: normal .7em/1.2em "IMFellEnglish", serif;
+		width: 30%;
+		margin: 2% 25%;
+		padding: 0% 10%;
+		text-align: center;
+	}
+	.sujetaRuleta{
+		animation-name: rotar;
+		animation-duration: 30s;
+		animation-delay: 2s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	@keyframes rotar{
+		100% {transform: rotate(360deg);}
+	}
+	.falsa{
+		width: 30%;
+		margin: 0% 35%;
+		border-style: solid;
+		border-color: black;
+		border-width: 2px 3px 1px 3px;
+		
+	}
+	.falsa p{
+		font: normal 1.2em/1.2em "GoudyBookletter1911", serif;
+		margin: 0% 0%;
+		padding: 2% 3%;
+		text-align: right;
+		letter-spacing: .5em;
+		color: white;
+		background-color: black;
+	}
+	.versalitas{
+		font-variant: small-caps;
+		letter-spacing: 2px;
+	}
+	.versalitas{
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	}
+	.proloCaja{
+		width: 60%;
+		margin: 0% 20%;
+	}
+	.proloCaja h3{
+		font: normal 2.5em/1.2em "IMFellEnglishSC", serif;
+		text-align: center;
+		width: 100%;
+		margin: 5% 0%;
+		color: #8b0000;
+	}
+	.proloCaja p{
+		width: 100%;
+		margin: 3% 0%;
+		font: normal 1.2em/1.4em "GoudyBookletter1911", serif;
+		text-align: justify;
+	}
+	.proloCaja blockquote{
+		width: 85%;
+		margin: 5% 0% 0% 5%;
+		padding: 1% 5% 2%;
+		font: normal 1.1em/1.4em "GoudyBookletter1911", serif;
+		text-align: center;
+		border-style: solid;
+		border-width: 0px 2px 2px 0px;
+		border-color: #8FBC8F;
+	}
+	.proloCaja blockquote.citasJusti{
+		text-align: justify;
+	}
+	.proloCaja blockquote pre{
+			font-size: 1em;
+	}
+	.notasblog{
+		font: normal .8em/1.2em "GoudyBookletter1911", serif;
+		color: #8FBC8F;
+		background-color: white;
+		border: none;
+		vertical-align: super;
+		word-spacing: -1px;
+		padding: 0;
+		cursor: pointer;
+		transition: 0.4s;
+		outline: none;
+	}
+	.dale, .accordion:hover {
+	  background-color: #ccc;
+	}
+	.notasblog:after {
+	  content: '\002B';
+	  color: #778899;
+	  font-weight: bold;
+	  float: right;
+	  margin-left: 5px;
+	}
+	.dale:after {
+	  content: "\2212";
+	}
+	.desplegadoNotas{
+		font: normal .8em/1.2em "GoudyBookletter1911", serif;
+		margin: 3% 0% 0% 10%;
+		background-color: #cfd5db;
+		transition: max-height 0.2s ease-out;
+		max-height: 0;
+		overflow: hidden;
+	}
+	.biblio{
+		width: 60%;
+		margin: 0% 20%;
+	}
+	.biblio h5{
+		font: normal 2em/1.2em "IMFellEnglishSC", serif;
+		text-align: left;
+		width: 100%;
+		margin: 3% 0%;
+	}
+	.biblio p{
+		width: 90%;
+		margin: 4% 0% 0% 5%;
+		font: normal 1em/1.2em "GoudyBookletter1911", serif;
+		text-align: justify;
+		text-indent: -1.5em;
+	}
+	.biblio a{
+		color: #4682B4;
+	}
+	figure{
+		width: 30%;
+		margin: 3% 35%;
+		page-break-after: always;
+	}
+	figcaption{
+		font: normal 1em/1.2em "GoudyBookletter1911", serif;
+		text-align: center;
+		padding: 2% 1%;
+		border-style: solid;
+		border-width: 1px 2px;
+		background-color: #191919;
+	}
+	figcaption a{
+		color: white;
+	}
+	figcaption::first-letter{
+		font: normal 2em/1.2em "GoudyBookletter1911", serif;
+		letter-spacing: 0px;
+	}
+	.vtxt{
+		width: 50%;
+		margin: 0% 25%;
+	}
+	.vIzquierda, .vDerecha {
+		width: 45%;
+		height: 230px;
+	}
+	.vIzquierda{
+		shape-outside: polygon(0% 0%, 100% 100%, 0% 100%);
+		float: left;
+		clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+	}
+	.vDerecha{
+		shape-outside: polygon(100% 0%, 100% 100%, 0% 100%);
+		float: right;
+		clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+	}
+	.pLector{
+		font: normal 1.2em/1.4em "IMFellEnglish", serif;
+		text-align: justify;
+		width: 90%;
+		margin: 3% 5%;
+		text-align-last: center;
+	}
+	.pLector::first-line{
+		font-variant: small-caps;
+	}
+	.cajaLegal{
+		width: 40%;
+		margin: 0% 55% 0% 05%;
+		padding: 2%;
+	}
+	p.legal{
+		font: normal 1em/1.1em "GoudyBookletter1911", "Georgia", serif;
+		margin: 2% 0%;
+		padding: 0%;
+	}
+	p.author{
+		text-align: center;
+		font: normal 1em/1.1em "GoudyBookletter1911", "Georiga", serif;
+		border: solid;
+		border-width: 1px 1px 1px 1px;
+		border-radius: 10px;
+		margin: 2% 0%;
+		padding: 3% 2%;
+	}
+	ol{
+		width: 80%;
+		margin: 2% 10% 0%;
+	}
+	li{
+		font: normal 1.4em/1.4em "IMFellEnglish", serif;
+	}
+	ol.segunda{
+		padding: 1% 2%;
+		font-size: .65em;
+		width: 90%;
+	}
+	ol.segunda li:hover{
+		font-size: 1.05em;
+		letter-spacing: 1px;
+	}
+	ol.segunda li:nth-child(2n){
+		background-color: #ffe6ff;
+		background-clip: content-box;
+		width: 90%;
+	}
+	.NoVerso{
+		text-align: right !important;
+	}
+	.reCubierta{
+		width: 30%;
+		margin: 0% 35%;
+		border-style: solid;
+		border-width: 6px 6px 0px 0px;
+		border-color: #B8860B;
+		background-color: #191919;
+	}
+	@keyframes fondo02{
+		0% {border-style: solid;border-width: 6px 6px 0px 0px; border-color: #B8860B;}
+		100% {border-style: solid;border-width: 6px 6px 0px 0px; border-color: #191919;}
+		
+	}
+	.fondos02{
+		animation-name: fondo02;
+		animation-duration: 30s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	.reCubierta02{
+		width: 30%;
+		margin: 0% 35%;
+		border-style: solid;
+		border-width: 0px 0px 6px 6px;
+		border-color: #B8860B;
+		background-color: #B8860B;
+	}
+	@keyframes fondo01{
+		0% {background-color: #B8860B;}
+		100% {background-color: #191919;border-style: solid;border-width: 0px 0px 6px 6px; border-color: #191919;}
+		
+	}
+	.fondos01{
+		animation-name: fondo01;
+		animation-duration: 30s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	.subP{
+		width: 60%;
+		margin: 3% 20%;
+		text-align: center;
+	}
+	.ornaBN{
+		color: white;
+		background-color: #191919;
+		padding: .05%;
+		text-align: center;
+	}
+	a.ornaD{
+		color: #b8860b;
+		text-align: center;
+		margin: 1% 48% 1.25%;
+		font-size: 1.2em;
+	}
+	.mundoIluminado{
+		color: #ffccff;
+		background-color: #191919;
+		page-break-before: always;
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+	.mundoIluminado h5{
+		font-size: 4em;
+		padding: 3%;
+		}
+	.colofon{
+		width: 40%;
+		margin: 1% 30%;
+		border-style: solid;
+		border-width: 1px 2px 1px 2px;
+		border-color: gray;
+		background-color: #121212;
+	}
+	.colofon p{
+		font: normal 1em/1.2em "Garamond", serif;
+		text-align: center;
+		margin: 3% 5%;
+		padding: 1% 6%;
+		color: white;
+	}
+	.cajaSemblanza{
+		width: 60%;
+		margin: 0% 20%;
+	}
+	.cajaSemblanza p{
+		font: normal 1.2em/1.4em "Bodoni", serif;
+		text-align: justify;
+		width: 100%;
+		margin: 2% 0%;
+	}
+	.cajaSemblanza p::first-line{
+		font-size: 1em;
+	}
+	.cajaSemblanza figure{
+		width: 20%;
+		margin: 1% 40%;
+	}
+	.imgSemblanza{
+		width: 20%;
+		margin: 1% 40%;
+	}
+	.cata{
+		width: 100%;
+		margin: 0% 0%;
+	}
+	.cata h4{
+		font: normal 2.5em/1.2em "IMFellEnglishSC", serif;
+		letter-spacing: 1px;
+		width: 80%;
+		margin: 0% 10% 2% 10%;
+		border-style: solid;
+		border-width: 2px 0px;
+		padding: 1% 1%;
+	}
+	.cata ul{
+		width: 80%;
+		margin: 2% 10%;
+		color: #DB7093;
+		list-style-image: url(imago/MiniPali.svg);
+	}
+	.cata li{
+		font: normal 1.5em/1.2em "IMFellEnglish", serif;
+		padding: .5% 2%;
+	}
+	.cata li a:hover{
+		color: white;
+		background-color: #DB7093;
+		padding: .5% 1%;
+	}
+	.img3{
+		width: 15%;
+		margin: 0% 42.5% 2%;
+	}
+	.imagoSferas{
+		width: 8%;
+		margin: 0% 46%;
+	}
+	.imgFronti{
+		height: 100%;
+		margin: 0% 0%;
+	}
+	.imgOri{
+		width: 100%;
+		margin: 0% 0%;
+		padding: 5% 0%;
+	}
+	.imgOrna{
+		width: 8%;
+		margin: 0% 46%;
+	}
+	.imgRe{
+		width: 100%;
+		margin: 0% 0%;
+	}
+	.imgCo{
+		width: 35%;
+		margin: 2% 32.5%;
+		border-style: solid;
+		border-width: 2px 3px;
+		border-color: gold;
+	}
+	.imgMiFronti{
+		width: 80%;
+		margin: 0% 10% 1%;
+	}
+	.imgOrnaTxt{
+		width: 30%;
+		margin: 2% 35%;
+	}
+	.reflejo{
+		-webkit-box-reflect: above;
+	}
+	.imgNegro{
+		background-color: #212121;
+		padding: 2%;
+	}
+	.fakebook{
+		width: 3.5%;
+		margin: 0% .8%;
+		float: left;
+		vertical-align: baseline;
+	}
+	.palindromo{
+		margin: 0% 40% 0% 40%;
+		width: 20%;
+		bottom: 2%;
+	}
+	.palindromolegal{
+		margin-left: 0%;
+		margin-right: auto;
+		margin-top: 2%;
+		width: 15%;
+	}
+}
